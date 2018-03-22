@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  iron-node:
+    build: .
+    volumes:
+      - ./.ethereum:/root/.ethereum
+    ports:
+      - "30303:30303"

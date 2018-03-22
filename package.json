@@ -1,0 +1,27 @@
+{
+  "name": "iron-node",
+  "version": "0.0.1",
+  "description": "Iron Network Node",
+  "main": "index.js",
+  "bin": {
+    "iron-node": "./bin/fe-cli.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irontown/iron-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irontown/iron-node/issues"
+  },
+  "homepage": "https://github.com/irontown/iron-node#readme"
+}
